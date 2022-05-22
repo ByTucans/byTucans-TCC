@@ -6,6 +6,7 @@
     --color-background-menu: #fffffe;
     --backgrund: URL("/assets/image/template/meetings-bg.jpg");
 }
+
 *
 {
     margin: 0px;
@@ -15,10 +16,10 @@
     box-sizing: border-box;
 }
 
-body
+/* body
 {
-    /* background-color:  rgb(131 131 131 / 15%); */
-} 
+     background-color:  rgb(131 131 131 / 15%); 
+}  */
 
 
 a:visited,a
