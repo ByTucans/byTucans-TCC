@@ -2,7 +2,7 @@
     --color-tucans: #ff8906;
     --color-background-black: #242629;
     --color-white: #fff;
-    --color-background-banner: #fef6e4;
+    --color-background-banner: #ff8906;
     --color-background-menu: #fffffe;
     --backgrund: URL("/assets/image/template/meetings-bg.jpg");
 }
@@ -43,7 +43,8 @@ a:visited,a
 {
     position: fixed;
     width: 100%;
-    background-color: var(--color-background-menu);
+    /* background-color: rgba(255, 255, 255, 0.052); */
+    
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -78,7 +79,7 @@ a:visited,a
 /* START BANNER */
 #banner
 {
-    background-image: var(--backgrund);
+    background-image: linear-gradient(to bottom, #fffce3, #faf0c1, #f7e39f, #f6d47e, #f7c55c, #f9b74a, #fba83a, #fe982c, #ff8730, #ff7637, #fd643e, #fa5246); 
     height: 300px;
     display: flex;
     flex-direction: row;
