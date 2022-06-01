@@ -4,6 +4,7 @@
     --color-white: #fff;
     --color-background-banner: #ff8906;
     --color-background-menu: #fffffe;
+    --color-nav-header: rgb(36, 36, 36);
     --backgrund: URL("/assets/image/template/meetings-bg.jpg");
 }
 
@@ -40,14 +41,15 @@ a:visited,a
 #navegacao{
     width: 100%;
     height: 30px;
-    background-color: var(--color-tucans);
+    /* background-color: var(--color-tucans); */
+    background-color: var(--color-nav-header);
 }
 
 .box-nav{
     display: flex;
     height: 100%;
     align-items: center;
-    justify-content: space-around;
+    justify-content: end;
     
 }
 
@@ -57,24 +59,22 @@ a:visited,a
 }
 
 .box-nav-social{
+    margin: 0 auto;
+    width: 90%;
+    display: flex;
+    justify-content: end;
+}
+
+.box-social{
     color: #FFF;
     display: flex;
     justify-content: space-evenly;
-    width: 10%;
+    width: 7%;
     /* border: 1px solid red; */
 }
-.box-nav-socialr i:hover i:nth-child(1){
-    color: blue;
+.box-social i:hover {
+    color: var(--color-tucans);
  }
- /* .box-nav-social:hover i:nth-child(2){
-    color: blue;
- }
- .box-nav-social:hover i:nth-child(3){
-    color: blue;
- }
- .box-nav-social:hover i:nth-child(4){
-    color: blue;
- } */
 
 
 #header-area
@@ -86,12 +86,13 @@ a:visited,a
 #menu
 {
     /* position: fixed; */
-    width: 100%;
-    background-color: rgba(255, 255, 255, 0.052);
+    margin: 0 auto;
+    width: 90%;
+   background-color: #FFF;
     margin-top: 10px;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     min-width: 700px;
 }
@@ -132,6 +133,9 @@ a:visited,a
 .link-login{
     color: white;
 }
+
+
+
 
     
 
@@ -179,3 +183,43 @@ font-size: 25px;
 
 
 /* END HEADER AREA */
+
+/* CONTEUDO*/
+#box-conteudo{
+    width: 100%;
+    padding: 30px;
+    margin-top: 60px;
+    background-color: #FFF;
+    height: auto;
+    text-align: center;
+}
+
+.box-cursos{
+    margin: 0 auto;
+    height: auto;
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+   
+}
+
+.cursos{
+   
+    height: 180px;
+    width: 200px;
+    margin-top: 20px;
+    background-color: #ff8906;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   flex-direction: column;
+    color: whitesmoke;
+    border-radius: 10px;
+   
+    
+}
+
+.cursos i {
+    font-size: 100px;
+}
