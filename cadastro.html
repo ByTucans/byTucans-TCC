@@ -4,7 +4,59 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Cadastro - byTucans</title>
+    <link rel="stylesheet" href="assets/css/login.css" />
+    <link
+      rel="shortcut icon"
+      href="/assets/image/icons/toucan-icon.png"
+      type="image/x-icon"
+    />
+    <title>Cadastro | byTucans</title>
   </head>
-  <body></body>
+  <body>
+    <div class="container-login">
+      <div class="img-box">
+        <img src="assets/image/byTucansSemFundoPequeno.png" />
+      </div>
+      <div class="content-box">
+        <div class="form-box">
+          <h2>Crie sua conta no <span>by</span>Tucans!</h2>
+          <br />
+          <form action="main.html">
+            <div class="input-box">
+              <h4>Nome Completo</h4>
+              <input type="text" placeholder="Digite seu nome" />
+            </div>
+
+            <div class="input-box">
+              <h4>Data de nascimento</h4>
+              <input type="date" />
+            </div>
+
+            <div class="row">
+              <h4>Sexo</h4>
+              <input type="radio" name="sexo" value="f" />
+              <label for="f"> Feminino</label>&nbsp;&nbsp;
+              <input type="radio" name="sexo" value="m" /><label for="m">
+                Masculino</label
+              >
+            </div>
+
+            <div class="input-box" style="margin-top: 20px">
+              <h4>E-mail</h4>
+              <input type="email" placeholder="user@mail.com" />
+            </div>
+
+            <div class="input-box">
+              <h4>Senha</h4>
+              <input type="password" placeholder="Digite sua senha" />
+            </div>
+
+            <div class="input-box">
+              <a href="main.html"><input type="submit" value="Cadastrar" /></a>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
