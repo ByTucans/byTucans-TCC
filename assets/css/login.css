@@ -126,7 +126,7 @@
 }
 
 .content-box .form-box .input-box input[type=submit]:hover {
-    background: #3286ca;
+    background: #e77e05;
 }
 
 .content-box .form-box .remember{
@@ -166,6 +166,21 @@
     text-align: center;
     font-size: 22px;
 }
+
+.box-password{
+    /* display: flex; */
+    position: relative;
+}
+
+.eye{
+    display: none;
+    width: 18px;
+    cursor: pointer;
+    position: absolute;
+    right: 10px;
+    top: 29px;    
+}
+
 @media (max-width:868px) {
     .container-login .img-box{
         display: none;
