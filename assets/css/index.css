@@ -1,9 +1,9 @@
-
 /* HEADER  */
+
 .header-container{
     height: 60px;
     width: 100%;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     font-family: 'Noto Serif', serif;
     font-size: 18px;  
     
@@ -11,12 +11,11 @@
 
 .header-area{
     height: 100%;
-    width: 100%;
+    width: 70%;
+    margin: 0 auto;
     display: flex;
-    justify-content: space-around ;
+    justify-content: space-around;
     align-items: center;
-   
-       
 }
 /* LOGO */
 .header-logo img{
@@ -26,23 +25,15 @@
 /* LOGO */
 
 /* MENU NAVEGACAO */
-
 .header-navegacao ul{
     display: flex;
     width: 350px;
     list-style: none;
     justify-content: space-between;
 }
-
-.header-navegacao ul li a{
-    text-decoration: none;
-
-} 
-
 /* MENU NAVEGACAO */
 
 /* MENU ACESSO */
-
 .header-acesso ul{
     width: 140px;
     list-style: none;
@@ -53,10 +44,10 @@
 .header-acesso ul li{
     display: inline; 
 }
-
-.header-acesso ul li a{
-  text-decoration: none; 
+.header-acesso a:hover,.header-navegacao a:hover{
+    border-bottom: solid 1px var(--color-tucans);
 }
+
 /* MENU ACESSO */
 
 /* HEADER */
@@ -66,14 +57,15 @@
 .banner-container{
     height: auto;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
-    border: 1px solid red;
-    
 }
-
+.toucan-container img{
+    width: 420px;
+}
 .start-container h2,h1{
     font-family: 'DynaPuff', cursive;
+    /* font-family: 'Petit Formal Script', cursive; */
     /* font-family: 'Noto Serif', serif; */
     /* font-family: 'Open Sans', sans-serif; */
     /* font-family: 'Silkscreen', cursive; */
@@ -87,7 +79,7 @@
 }
 .start-container h1 span{
     font-size: 70px;
-    color: #ff8906;
+    color: var(--color-tucans);
 }
 
 .start-container p {
@@ -96,16 +88,14 @@
 }
 
 .start-container p span{
-    color: #ff8906;
+    color: var(--color-tucans);
 }
 
-.start-container{
-    border: 1px solid red;
-  
+.contents-container{
+    margin-top: 15px;
 }
+
 
 /* BANNER */
 /* CONTENTS */
 
-/*ANIMATIONS*/
-/*ANIMATIONS*/

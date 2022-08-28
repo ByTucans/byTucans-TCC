@@ -1,6 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff:wght@400;500&family=Noto+Serif:wght@400;700&family=Open+Sans:wght@400;700&family=Petit+Formal+Script&family=Silkscreen&display=swap');
+/* 
+font-family: 'DynaPuff', cursive;
+font-family: 'Noto Serif', serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Petit Formal Script', cursive;
+font-family: 'Silkscreen', cursive;
+*/
+
+
+:root{
+    --color-tucans: #ff8906;
+    --color-background-black: #242629;
+    --color-white: #fff;
+    --color-background-banner: #ff8906;
+    --color-background-menu: #fffffe;
+    --color-nav-header: rgb(36, 36, 36);
+    /* --backgrund: URL("/assets/image/template/meetings-bg.jpg"); */
+    --color-icones-linguages: #ffa500
+}
+
 * {
     margin: 0px;
     padding: 0px;
     list-style: none;
 }
+
+a:link, a:visited, a:visited{
+    color: black;
+    text-decoration: none;
+}
+
+/*ANIMATIONS*/
+.float-animation{
+    transform: translateY(0px);
+    animation: float 5s ease-in-out infinite;
+}
+
+@keyframes float{
+    0%{
+        transform: translateY(0px);
+    }
+    50%{
+        transform: translateY(-15px);
+    }
+    
+    100%{
+        transform: translateY(0px);
+    }
+    
+}
+
+    
+
+/*ANIMATIONS*/
 
