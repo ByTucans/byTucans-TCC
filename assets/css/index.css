@@ -31,6 +31,28 @@
     list-style: none;
     justify-content: space-between;
 }
+
+.header-navegacao a, .header-acesso a{
+    position: relative;
+
+}
+
+.header-navegacao a::after, .header-acesso a::after{
+    content: "";
+    width: 0%;
+    height: 2.5px;
+    background-color: var(--color-tucans);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: .5s ease-in-out;
+
+}
+
+.header-navegacao a:hover::after, .header-acesso a:hover::after{
+    width: 100%;
+   
+}
 /* MENU NAVEGACAO */
 
 /* MENU ACESSO */
@@ -43,9 +65,6 @@
 
 .header-acesso ul li{
     display: inline; 
-}
-.header-acesso a:hover,.header-navegacao a:hover{
-    border-bottom: solid 1px var(--color-tucans);
 }
 
 /* MENU ACESSO */
