@@ -1,0 +1,111 @@
+
+/* HEADER  */
+.header-container{
+    height: 60px;
+    width: 100%;
+    border: 1px solid black;
+    font-family: 'Noto Serif', serif;
+    font-size: 18px;  
+    
+}
+
+.header-area{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around ;
+    align-items: center;
+   
+       
+}
+/* LOGO */
+.header-logo img{
+    height: 40px;
+    margin-top: 8px;
+}
+/* LOGO */
+
+/* MENU NAVEGACAO */
+
+.header-navegacao ul{
+    display: flex;
+    width: 350px;
+    list-style: none;
+    justify-content: space-between;
+}
+
+.header-navegacao ul li a{
+    text-decoration: none;
+
+} 
+
+/* MENU NAVEGACAO */
+
+/* MENU ACESSO */
+
+.header-acesso ul{
+    width: 140px;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;    
+}
+
+.header-acesso ul li{
+    display: inline; 
+}
+
+.header-acesso ul li a{
+  text-decoration: none; 
+}
+/* MENU ACESSO */
+
+/* HEADER */
+
+/* CONTENTS */
+/* BANNER */
+.banner-container{
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid red;
+    
+}
+
+.start-container h2,h1{
+    font-family: 'DynaPuff', cursive;
+    /* font-family: 'Noto Serif', serif; */
+    /* font-family: 'Open Sans', sans-serif; */
+    /* font-family: 'Silkscreen', cursive; */
+    
+}
+.start-container h2{
+    font-size: 60px;
+}
+.start-container h1{
+    font-size: 80px;
+}
+.start-container h1 span{
+    font-size: 70px;
+    color: #ff8906;
+}
+
+.start-container p {
+   font-size: 30px;
+   margin-top: 10px;
+}
+
+.start-container p span{
+    color: #ff8906;
+}
+
+.start-container{
+    border: 1px solid red;
+  
+}
+
+/* BANNER */
+/* CONTENTS */
+
+/*ANIMATIONS*/
+/*ANIMATIONS*/
